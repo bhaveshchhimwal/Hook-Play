@@ -4,4 +4,4 @@ In this version there are limited songs that are added manually.
 
 More Updates to Come :)
 
-Link:- https://bhavesh-chhimwal-hook-play.netlify.app/
+Link:- https://hook-play.netlify.app/
