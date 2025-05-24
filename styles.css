@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set {
+  margin: 10% auto; /* Centers the drum set */
+}
+
+.drum {
+  outline: none;
+  border-radius: 15px; 
+  display: inline-block; 
+  width: 150px; 
+  height: 150px; 
+  margin: 10px; 
+  border-width: 5px; 
+  border-style: solid; 
+  border-color: #404B69; /* Border color */
+  font-size: 5rem; 
+  font-family: 'Arvo', cursive; 
+  line-height: 2; 
+  font-weight: 900; 
+  color: #DA0463; 
+  text-shadow: 3px 0 #DBEDF3; 
+  background-color: white; /* Default background */
+}
+
+.w { background-image: url('images/fiftyshadesofgrey.jpg'); }
+.a { background-image: url('images/tuchaiye.jpg'); }
+.s { background-image: url('images/bulleya.jpg'); }
+.d { background-image: url('images/shubh.jpeg'); }
+.j { background-image: url('images/krsna.jpg'); }
+.k { background-image: url('images/diljit.webp'); }
+.l { background-image: url('images/ranjhana.jpg'); }
+
+.drum {
+ background-size: cover; /* Ensures the image covers the button */
+ background-repeat: no-repeat; /* Prevents repetition of the image */
+ background-position: center; /* Centers the image within the button */
+}
+
+.pressed {
+ box-shadow: 0 3px 4px 0 #DBEDF3; /* Shadow effect on press */
+ opacity: 0.5; /* Slight transparency when pressed */
+ transition: opacity 0.1s ease, box-shadow 0.1s ease; /* Smooth transition */
+}
