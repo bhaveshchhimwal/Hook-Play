@@ -28,7 +28,7 @@ function makeSound(key) {
             playSound('songs/borntoshine.mp3');
             break;
         case "l":
-            playSound('songs/ranjhana.mp3');
+         playSound('songs/raanjhanaa.mp3');
             break;
         default:
             console.log("No sound assigned for this key.");
