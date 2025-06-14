@@ -1,7 +1,7 @@
-const drums = document.querySelectorAll(".drum");
+const songs = document.querySelectorAll(".drum");
 
-for (let i = 0; i < drums.length; i++) {
-    drums[i].addEventListener("click", function () {
+for (let i = 0; i < songs.length; i++) {
+    songs[i].addEventListener("click", function () {
         const soundKey = this.getAttribute("data-sound");
         makeSound(soundKey);
     });
@@ -10,25 +10,25 @@ for (let i = 0; i < drums.length; i++) {
 function makeSound(key) {
     switch (key) {
         case "w":
-            playSound('sound/LoveMeLikeYouDo.mp3');
+            playSound('songs/fiftyshadesofgrey.mp3');
             break;
         case "a":
-            playSound('sound/TuChaiye.mp3');
+            playSound('songs/tuchaiye.mp3');
             break;
         case "s":
-            playSound('sound/bulleya.mp3');
+            playSound('songs/bulleya.mp3');
             break;
         case "d":
-            playSound('sound/safetyoff.mp3');
+            playSound('songs/safetyoff.mp3');
             break;
         case "j":
-            playSound('sound/krsna.mp3');
+            playSound('songs/lilbunty.mp3');
             break;
         case "k":
-            playSound('sound/born.mp3');
+            playSound('songs/borntoshine.mp3');
             break;
         case "l":
-            playSound('sound/ranjhana.mp3');
+            playSound('songs/ranjhana.mp3');
             break;
         default:
             console.log("No sound assigned for this key.");
