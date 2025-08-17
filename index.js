@@ -37,10 +37,11 @@ function makeSound(key) {
 
 let currentAudio = null;
 function playSound(soundFile) {
-   
+    // Stop the currently playing audio (if any)
     if (currentAudio) {
         currentAudio.pause();
     }
+    // Create a new Audio object and play it
     currentAudio = new Audio(soundFile);
     currentAudio.play();
 }
