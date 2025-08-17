@@ -16,7 +16,7 @@ footer {
 }
 
 .set {
-  margin: 10% auto; /* Centers the drum set */
+  margin: 10% auto; 
 }
 
 .drum {
@@ -28,14 +28,14 @@ footer {
   margin: 10px; 
   border-width: 5px; 
   border-style: solid; 
-  border-color: #404B69; /* Border color */
+  border-color: #404B69;
   font-size: 5rem; 
   font-family: 'Arvo', cursive; 
   line-height: 2; 
   font-weight: 900; 
   color: #DA0463; 
   text-shadow: 3px 0 #DBEDF3; 
-  background-color: white; /* Default background */
+  background-color: white;
 }
 
 .w { background-image: url('images/fiftyshadesofgrey.jpg'); }
@@ -47,13 +47,13 @@ footer {
 .l { background-image: url('images/ranjhana.jpg'); }
 
 .drum {
- background-size: cover; /* Ensures the image covers the button */
- background-repeat: no-repeat; /* Prevents repetition of the image */
- background-position: center; /* Centers the image within the button */
+ background-size: cover;
+ background-repeat: no-repeat; 
+ background-position: center; 
 }
 
 .pressed {
- box-shadow: 0 3px 4px 0 #DBEDF3; /* Shadow effect on press */
- opacity: 0.5; /* Slight transparency when pressed */
- transition: opacity 0.1s ease, box-shadow 0.1s ease; /* Smooth transition */
+ box-shadow: 0 3px 4px 0 #DBEDF3; 
+ opacity: 0.5;
+ transition: opacity 0.1s ease, box-shadow 0.1s ease; 
 }
