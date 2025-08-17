@@ -34,10 +34,10 @@ function makeSound(key) {
             console.log("No sound assigned for this key.");
     }
 }
-// Function to handle playing the sound
+
 let currentAudio = null;
 function playSound(soundFile) {
-    // Stop the currently playing audio (if any)
+   
     if (currentAudio) {
         currentAudio.pause();
     }
